@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Plays colors</title>
+        <style>
+            html,body {
+                height: 100%;
+            }
+            body {
+                text-align: center;
+            }
+            .biru-muda {
+                background-color:   lightblue;
+            }
+            .kotak {
+                width: 25px;
+                height: 25px;
+                margin: 10px auto;
+            }
+            .merah { background-color: red; }
+            .biru { background-color: blue; }
+            .hijau { background-color: green; }
+
+        </style>
+    </head>
+    <body>
+        <h1>Plays RGB</h1>
+        <br>
+        <h2>Play colors with Kursor</h2>
+        <br>
+        <h2>Play colors With Button</h2>
+        <button type="button" id="tUbahWarna">Change Color</button>
+
+        <br><br><br><br>
+
+        <h2>Play colors With Range</h2>
+        <div class="kotak merah"></div> 
+        <input type="range" name="sMerah" min="0" max="255">
+        <br><br>
+        <div class="kotak hijau"></div>
+        <input type="range" name="sHijau" min="0" max="255">
+        <br><br>
+        <div class="kotak biru"></div>
+        <input type="range" name="sBiru" min="0" max="255">
+
+
+        <script src="mainWarna.js"></script>
+    </body>
+</html>
